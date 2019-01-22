@@ -10,28 +10,28 @@ Note that this repository contains solely the documentation for Hugo. For contri
 
 *Pull requests shall **only** contain changes to the actual documentation. However, changes on the code base of Hugo **and** the documentation shall be a single, atomic pull request in the [hugo](https://github.com/gohugoio/hugo) repository.*
 
-Spelling fixes are most welcomed, and if you want to contribute longer sections to the documentation, it would be great if you had these in mind when writing:
+Spelling fixes are most welcome, and if you want to contribute longer sections to the documentation, it would be great if you had the following in mind when writing:
 
 * Short is good. People go to the library to read novels. If there is more than one way to _do a thing_ in Hugo, describe the current _best practice_ (avoid "… but you can also do …" and "… in older versions of Hugo you had to …".
-* For examples, try to find short snippets that teaches people about the concept. If the example is also useful as-is (copy and paste), then great, but don't list long and similar examples just so people can use them on their sites.
-* Hugo has users from all over the world, so an easy to understand and [simple English](https://simple.wikipedia.org/wiki/Basic_English) is good.
+* For examples, try to find short snippets that demonstrate a concept. If the example is also useful as is (copy and paste), then great, but don't list long and similar examples just so people can use them on their sites.
+* Hugo has users from all over the world, so an easy to understand and [simple English](https://simple.wikipedia.org/wiki/Basic_English) is best.
 
 ## Branches
 
-* The `master` branch is where the site is automatically built from, and is the place to put changes relevant to the current Hugo version.
-* The `next` branch is where we store changes that is related to the next Hugo release. This can be previewed here: https://next--gohugoio.netlify.com/
+* The site is automatically built from `master` branch, and that is the place to put changes relevant to the current Hugo version.
+* The `next` branch is where we store changes that are related to the next Hugo release. This can be previewed here: https://next--gohugoio.netlify.com/
 
 ## Build
 
-To view the documentation site locally, you need to clone this repository:
+To view the documentation site locally, clone this repository:
 
 ```bash
 git clone https://github.com/gohugoio/hugoDocs.git
 ```
 
-Also note that the documentation version for a given version of Hugo can also be found in the `/docs` sub-folder of the [Hugo source repository](https://github.com/gohugoio/hugo).
+Also note that the documentation version for a given version of Hugo can be found in the `/docs` sub-folder of the [Hugo source repository](https://github.com/gohugoio/hugo).
 
-Then to view the docs in your browser, run Hugo and open up the link:
+View the docs in your browser by running Hugo and entering `hugo server` on the command line. For example:
 
 ```bash
 ▶ hugo server
